@@ -1,11 +1,12 @@
 var yoff = 0;
 
 function setup() {
-  createCanvas(400, 400);
+  createCanvas(600, 600);
 }
 
 function draw() {
   background(51);
+
   translate(width / 2, height / 2);
 
   stroke(255);

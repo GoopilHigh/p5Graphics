@@ -13,6 +13,10 @@ function draw() {
   
   xoff1 += 0.02;
   xoff2 += 0.02;
+
+  
+  print("x -> " + x);
+  print("y -> " + y + "\n");
   
   ellipse(x, y, 24, 24);
 }
